@@ -1,0 +1,65 @@
+body{
+/* background-image: url('https://i.pinimg.com/originals/0a/4d/cb/0a4dcb92fa2d3c601b58d72720d6bec4.jpg') !important;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed; */
+background-image: linear-gradient(to right, #d16ba5, 
+#c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4,
+ #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+.App{
+  width: 600px;
+  height: 600px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: roboto;
+  background-image:url(1.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  box-shadow: inset 24px 24px 49px #9b1f6b,
+  inset -24px -24px 49px #097388;
+  
+}
+h2{
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+  color: rgb(43, 1, 43);
+  
+}
+Form{
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+.back{
+  color: rgb(43, 1, 43);
+}
+
+/*button*/
+button {
+  position: relative;
+  padding: 5px 40px; 
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 7px;
+  font-size: 20px;
+  color: rgb(70, 3, 70);
+  text-decoration: none;
+  background-color: #41dfff;
+  border: none;
+  border-bottom: 5px solid #41dfff;
+  text-shadow: 0px -2px #41dfff;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+button:hover, button:active {
+  -webkit-transform: translate(0px,5px);
+  -ms-transform: translate(0px,5px);
+  transform: translate(0px,5px);
+  border-bottom: 1px solid #41dfff;
+
+}
